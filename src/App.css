@@ -1,6 +1,6 @@
 .enwuirey:hover{color: #D9CA6D;background-color: #483F3A;border: 1px solid #D9CA6D ;text-decoration: none;}
-.enwuirey{background-Color:#D9CA6D;color:#645457;text-decoration: none;}
-.enwuireyy{background-Color:#D9CA6D;color:#645457}
+.enwuirey{background-Color:#D9CA6D;color:#645457;text-decoration: none;border: 1px solid #645457 ;}
+.enwuireyy{background-Color:#D9CA6D;color:#645457;border: 1px solid #D9CA6D }
 .enwuireyy:hover{color: #D9CA6D;background-color: #483F3A;border: 1px solid #08703f ;}
 
 .dragin{box-shadow: 0px 2px 10px;}

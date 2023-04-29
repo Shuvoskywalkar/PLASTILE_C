@@ -14,13 +14,7 @@ import {
   BrowserRouter
 } from "react-router-dom";
 import Home from './components/Home/Home';
-import Contact from './components/Contact/Contact';
-import Products from './components/Products/Products';
-import Media from './components/Media/Media';
-import Projects from './components/Projects/Projects';
-import Clients from './components/Clients/Clients';
-import ContactUS from './components/Contactus/Contactus';
-import Enquirey from './components/Enquirey/Enquirey';
+
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -46,36 +40,7 @@ function App() {
     <Home/>
   </Route>
   
-  <Route  path="/About">
-    <Contact/>
-  </Route>
-
-  <Route  path="/meadia">
-    <Media/>
-  </Route>
-
-  <Route  path="/Products">
-    <Products/>
-  </Route>
   
-  <Route  path="/Projects">
-    <Projects/>
-  </Route>
-
-  <Route  path="/Clients">
-    <Clients/>
-  </Route>
-
-  
-  <Route  path="/Contactus">
-    <ContactUS/>
-  </Route>
-
-
-  <Route  path="/Enquirey">
-    <Enquirey/>
-  </Route>
-
 </Switch>
 </BrowserRouter>
     );
